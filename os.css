@@ -1,0 +1,82 @@
+.jumbotron{
+    text-align: center;
+    background-color: rgb(227, 224, 224);
+    border: rgb(56, 50, 50);
+}
+.equal-height {
+    display: flex;
+  }
+  .card {
+    flex: 1;
+    box-shadow: 0 0 10px#7cb25e;
+  }
+  .card:last-child {
+    margin-right: 0;
+  }
+  
+.nouvelle-classe {
+    /* Styles que vous souhaitez appliquer à la nouvelle classe */
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center; /* Pour centrer le texte */
+    box-shadow: 0 4px 8px rgba(39, 40, 39, 0.5); /* Ombre de boîte */
+}
+
+.nouvelle-classe h1 {
+    /* Styles spécifiques pour le titre h1 */
+    color: #333;
+    font-size: 36px;
+    font-weight: bold; /* Texte en gras */
+}
+
+.nouvelle-classe .lead {
+    /* Styles spécifiques pour le paragraphe avec la classe lead */
+    font-size: 18px;
+    color: #666;
+    font-weight: bold; /* Texte en gras */
+}
+  .modal-content {
+    border-radius: 10px;
+  }
+
+  .modal-header {
+    background-color: #7cb25e;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .modal-footer {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .modal-body {
+    padding: 20px;
+  }
+
+  .modal-title {
+    margin: 0 auto;
+  }
+  .close {
+    color: #fff;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .modal {
+    margin-top: 50px;
+  }
+
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Add margin bottom to the paragraph */
+  .modal-body p {
+    margin-bottom: 15px;
+  }
